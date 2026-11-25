@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="Kliff Emmanuel Jasme — Full Stack Developer, Cebu, Philippines">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071324"/>
+      <stop offset="52%" stop-color="#0c223b"/>
+      <stop offset="100%" stop-color="#08172b"/>
+    </linearGradient>
+    <radialGradient id="glow-warm" cx="84%" cy="18%" r="48%">
+      <stop offset="0%" stop-color="#ff8f7e" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#ff8f7e" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ff8f7e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-sea" cx="22%" cy="88%" r="55%">
+      <stop offset="0%" stop-color="#3b8299" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#3b8299" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff8f7e"/>
+      <stop offset="65%" stop-color="#ff8f7e" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ff8f7e" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ridge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8ab7cf" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#8ab7cf" stop-opacity="0.01"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="340" rx="16" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="16" fill="url(#glow-warm)"/>
+  <rect width="1280" height="340" rx="16" fill="url(#glow-sea)"/>
+
+  <!-- Subtle topographic mountain ridge silhouette on the right (echoing Cebu portfolio scenery) -->
+  <path d="M560 340 L690 250 L775 274 L895 162 L978 214 L1068 136 L1162 218 L1280 185 L1280 340 Z" fill="url(#ridge)"/>
+  <path d="M540 278 C660 296 710 218 825 234 S995 162 1105 198 s115 10 195 -36" fill="none" stroke="#9ec4da" stroke-opacity="0.22" stroke-width="1.1"/>
+  <path d="M540 252 C660 270 712 192 828 208 S995 136 1105 172 s115 10 195 -36" fill="none" stroke="#9ec4da" stroke-opacity="0.14" stroke-width="1"/>
+  <path d="M540 304 C660 322 710 244 825 260 S995 188 1105 224 s115 10 195 -36" fill="none" stroke="#9ec4da" stroke-opacity="0.12" stroke-width="1"/>
+  <circle cx="1068" cy="136" r="3.5" fill="#ff8f7e"/>
+  <circle cx="1068" cy="136" r="10" fill="#ff8f7e" fill-opacity="0.16"/>
+
+  <!-- Viewfinder frame & corner ticks -->
+  <rect x="24" y="24" width="1232" height="292" rx="10" fill="none" stroke="#dce8f5" stroke-opacity="0.12" stroke-width="1"/>
+  <path d="M24 44 V24 H44 M1236 24 H1256 V44 M24 296 V316 H44 M1236 316 H1256 V296" fill="none" stroke="#ff8f7e" stroke-opacity="0.72" stroke-width="1.5"/>
+
+  <!-- Coordinates micro-label top-right -->
+  <text x="1224" y="64" text-anchor="end" fill="#9fb7cc" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="11" letter-spacing="3">10°18'N · 123°53'E · CEBU, PH</text>
+
+  <!-- K Monogram badge -->
+  <rect x="64" y="58" width="44" height="44" rx="10" fill="#0d2542" stroke="#dce8f5" stroke-opacity="0.28" stroke-width="1"/>
+  <path d="M78 68 V92 M96 68 L79.5 80.5 L97.5 92" fill="none" stroke="#f5f7fb" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Coral hairline -->
+  <rect x="64" y="124" width="120" height="2" fill="url(#accent)"/>
+
+  <!-- Eyebrow + Name + Pitch -->
+  <text x="64" y="154" fill="#ff8f7e" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="3.2">FULL STACK DEVELOPER  ·  COMPUTER ENGINEERING</text>
+  <text x="64" y="208" fill="#f5f7fb" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="44" font-weight="300" letter-spacing="1.5">Kliff Emmanuel Jasme</text>
+  <text x="64" y="246" fill="#c7d7e6" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="17" font-weight="400">Building responsive web apps, backend systems, quant research tools, and connected hardware.</text>
+
+  <!-- Bottom link bar -->
+  <text x="64" y="290" fill="#8fb0c9" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="12.5" letter-spacing="1.4">kliffdev.netlify.app   ·   github.com/kliff-dev   ·   jasmekliffemmanuel@gmail.com</text>
+</svg>
